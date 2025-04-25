@@ -19,4 +19,4 @@ export const main = async (request, context) => {
   context.content = {
     json,
   };
-}
+};
