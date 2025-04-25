@@ -1,4 +1,5 @@
-export default async function handler(request, context) {
+// eslint-disable-next-line import/prefer-default-export
+export const main = async (request, context) => {
   const slug = request.params.slug ?? '';
   const parentPath = request.params.parentPath ?? '/';
   const PUBLISHER_HOST = 'https://dev.cf.skoda-auto.com';
